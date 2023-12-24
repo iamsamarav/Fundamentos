@@ -19,5 +19,9 @@ namespace Fundamentos.Models
         public void Dividir(int x, int y){
             Console.WriteLine($"{x} / {y} = {x / y}");
         }
+        public void Potencia(int x, int y){
+            double resultado = Math.Pow(x, y);
+            Console.WriteLine($"{x} elevado a {y} = {resultado}");
+        }
     }
 }
