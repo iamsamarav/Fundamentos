@@ -24,6 +24,7 @@ namespace Fundamentos.Models
             carteira -= valorProduto;
 
             Console.WriteLine($"Você adquiriu o produto, agora tem disponível: {carteira}");
+            Environment.Exit();
         }
     }
 }
